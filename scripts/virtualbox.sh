@@ -5,9 +5,9 @@ emerge "=virtual/linux-sources-1" --autounmask-write
 etc-update --automode -5
 emerge "=virtual/linux-sources-1"
 
-emerge ">=app-emulation/virtualbox-guest-additions-4.3" --autounmask-write
+emerge "=app-emulation/virtualbox-additions-5.1.6" --autounmask-write
 etc-update --automode -5
-emerge ">=app-emulation/virtualbox-guest-additions-4.3"
+emerge "=app-emulation/virtualbox-additions-5.1.6"
 
-rc-update add virtualbox-guest-additions default
+#rc-update add virtualbox-guest-additions default
 EOF
